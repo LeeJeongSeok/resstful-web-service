@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Getter @Setter @AllArgsConstructor
 //@JsonIgnoreProperties(value = {"password", "ssn"})
 @NoArgsConstructor
-@JsonFilter("UserInfo")
+//@JsonFilter("UserInfo")
 public class User {
 
     private Long id;
